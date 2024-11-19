@@ -1,0 +1,31 @@
+{
+  "name": "module-8-new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier . --write",
+    "build": "tsc",
+    "lint": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "lint:fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/cors": "^2.8.17",
+    "@types/eslint__js": "^8.42.3",
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.15.0",
+    "express": "^4.21.1",
+    "globals": "^15.12.0",
+    "mongoose": "^8.8.2",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.15.0"
+  }
+}
